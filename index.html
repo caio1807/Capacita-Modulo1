@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfólio - Caio</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #c1e0ff;
+      color: #1a1919;
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: #007bff;
+      color: white;
+      padding: 1rem 2rem;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s;
+      margin: 0.5rem;
+    }
+
+    nav a:hover {
+      color: #ffd700;
+    }
+
+    section {
+      padding: 4rem 2rem;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    section h2, h1 {
+      margin-bottom: 1rem;
+      color: #0273ec;
+      font-size: 1.8rem;
+      text-align: center;
+    }
+
+      .box {
+      border: 2px solid #ccc; /* Borda cinza clara */
+      background-color: rgba(255, 255, 255, 0.5); /* Fundo branco com 50% de transparência */
+      color: black; /* Texto preto */
+      padding: 1rem;
+      border-radius: 10px;
+      transition: transform 0.3s ease;
+      backdrop-filter: blur(8px); /* Opcional: vidro fosco */
+  }
+
+      .skill {
+      border: 2px solid #ccc;
+      background-color: rgba(255, 255, 255, 0.5); 
+      color: black; 
+      padding: 1rem;
+      border-radius: 10px;
+      transition: transform 0.3s ease;
+      backdrop-filter: blur(8px); 
+  }
+
+    .testimonial {
+      border: 2px solid #ccc;
+      background-color: rgba(255, 255, 255, 0.5);
+      color: black; 
+      padding: 1rem;
+      border-radius: 10px;
+      transition: transform 0.3s ease;
+      backdrop-filter: blur(8px); 
+    }
+    .progress-bar {
+      width: 100%;
+      height: 20px;
+      background-color: #e0e0e0;
+      border-radius: 10px;
+      overflow: hidden;
+    }
+
+    .progress {
+      height: 100%;
+      background-color: #3498db;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem;
+      background-color: #343a40;
+      color: white;
+    }
+
+    footer a {
+      color: #00c8ff;
+      margin: 0 0.5rem;
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="#Quem sou eu">Quem sou eu</a>
+      <a href="#Historico">Histórico</a>
+      <a href="#Interesses">Interesses</a>
+      <a href="#Conhecimento">Conhecimento</a>
+      <a href="#Redes Sociais">Redes Sociais</a>
+      <a href="#Contato">Contato</a>
+      <a href="#Clientes">Clientes</a>
+      <a href="#Fotos">Fotos</a>
+      <a href="#Aprendizado">Aprendizado</a>
+      <a href="#Comentário">Comentário</a>
+    </nav>
+  </header>
+
+  <section id="Quem sou eu">
+    <h2>Quem sou eu</h2>
+    <div class="box">
+      <p>Olá! Meu nome é Caio. Sou desenvolvedor web fullstack, apaixonado por criar jogos digitais e segurança cibernética.</p>
+    </div>
+  </section>
+
+  <section id="Historico">
+    <h2>Histórico</h2>
+    <div class="box">
+      <p>Graduando em Jogos Digitais pela Universidade Farias Brito.</p>
+    </div>
+  </section>
+
+  <section id="Interesses">
+    <h2>Interesses</h2>
+    <div class="box">
+      <p>Tenho experiência em HTML, CSS e JavaScript. Me interesso por acessibilidade, UX/UI Design, desempenho de interfaces e segurança web com ênfase em ataques cibernéticos.</p>
+    </div>
+  </section>
+
+  <section id="Conhecimento">
+    <h2>Nível de Conhecimento</h2>
+    <div class="box">
+      <div class="skill">
+        <span>HTML</span>
+        <div class="progress-bar">
+          <div class="progress" style="width: 90%;"></div>
+        </div>
+      </div>
+      <div class="skill">
+        <span>CSS</span>
+        <div class="progress-bar">
+          <div class="progress" style="width: 65%;"></div>
+        </div>
+      </div>
+      <div class="skill">
+        <span>JavaScript</span>
+        <div class="progress-bar">
+          <div class="progress" style="width: 45%;"></div>
+        </div>
+      </div>
+      <div class="skill">
+        <span>Python</span>
+        <div class="progress-bar">
+          <div class="progress" style="width: 50%;"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="Redes Sociais">
+    <h2>Contato e Redes Sociais</h2>
+    <div class="box">
+      <p>📧 Email: ccecsar1806@gmail.com</p>
+      <p>📱 WhatsApp: <a href="https://wa.me/5585981600789" target="_blank">(85) 98160-0789</a></p>
+      <p>💼 YouTube: <a href="https://www.youtube.com/@Mestredosgames-f8g" target="_blank">Mestre dos Games</a></p>
+      <p>💻 GitHub: <a href="https://github.com/caio1807" target="_blank">github.com/caio1807</a></p>
+    </div>
+  </section>
+        
+<head>
+      <meta charset="UTF-8">
+      <title>Contato</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+      body {
+      font-family: Arial, sans-serif;
+      background-color: #a5d8fa;
+      padding: 2rem;
+      color: #333;
+    }
+
+      h1 {
+      text-align: center;
+      margin-bottom: 2rem;
+      color: #007bff;
+    }
+
+      form {
+      max-width: 600px;
+      margin: 0 auto;
+      background: #fff;
+      padding: 2rem;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+      label {
+      display: block;
+      margin-bottom: 0.5rem;
+      font-weight: bold;
+    }
+
+      input, textarea {
+      width: 100%;
+      padding: 0.75rem;
+      margin-bottom: 1.5rem;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-size: 1rem;
+    }
+
+      button {
+      background-color: #007bff;
+      color: #fff;
+      padding: 0.75rem 1.5rem;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 1rem;
+      transition: background 0.3s;
+    }
+
+      button:hover {
+      background-color: #0056b3;
+    }
+
+      .form-group {
+      margin-bottom: 1.5rem;
+    }
+  </style>
+</head>
+  <body>
+    <section id="Contato">
+       <h1>Entre em Contato</h1>
+  </section>
+  
+  <form action="#" method="post">
+    <div class="form-group">
+    <label for="nome">Nome:</label>
+    <input type="text" id="nome" name="nome" required>
+    </div>
+
+    <div class="form-group">
+    <label for="email">E-mail:</label>
+    <input type="email" id="email" name="email" required>
+    </div>
+
+    <div class="form-group">
+    <label for="telefone">Telefone:</label>
+    <input type="tel" id="telefone" name="telefone">
+    </div>
+
+    <div class="form-group">
+    <label for="mensagem">Assunto / Mensagem:</label>
+    <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+    </div>
+
+    <button type="submit">Enviar</button>
+    </form>
+<head>
+  </body>
+  
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Depoimentos de Clientes</title>
+  <style>
+        body {
+        font-family: Arial, sans-serif;
+        background-color: #d9f4fd;
+        margin: 0;
+        padding: 0;
+    }
+
+        .container {
+        max-width: 1000px;
+        margin: 0 auto;
+        padding: 40px 20px;
+    }
+
+        h1 {
+        text-align: center;
+        color: #333;
+        margin-bottom: 40px;
+    }
+
+        .testimonials {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        gap: 20px;
+    }
+
+        .testimonial {
+        background-color: #fff;
+        border-radius: 10px;
+        padding: 20px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        transition: transform 0.3s ease;
+    }
+
+        .testimonial:hover {
+        transform: scale(1.02);
+    }
+
+        .testimonial img {
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin-bottom: 15px;
+    }
+
+        .testimonial h3 {
+        margin: 10px 0 5px;
+        color: #222;
+        font-size: 1.1rem;
+    }
+
+        .testimonial p {
+        font-size: 0.95rem;
+        color: #555;
+    }
+  </style>
+    </head>
+    <body>
+    <section id="Clientes"></section>
+    <div class="container">
+    <h1>O que dizem nossos clientes</h1>
+    <div class="testimonials">
+      
+
+    <div class="testimonial">
+    <img src="imagens/f4.jpg" alt="Foto depoimento">
+    <h3>Aliny Rocha</h3>
+    <p>Gostei muito do atendimento respeitou o przo de entrega. Super recomendo!</p>
+    </div>
+
+    <div class="testimonial">
+    <img src="imagens/f1.jpg" alt="Foto depoimento">
+    <h3>Leo Almeida</h3>
+    <p>Parabéns pelo serviço!</p>
+    </div>
+
+    <div class="testimonial">
+    <img src="imagens/f3.jfif" alt="Foto depoimento">
+    <h3>Debora Souza</h3>
+    <p>Adorei o atendimento. Apresentou propostas bem criativas! Recomendo.</p>
+    </div>
+
+    </div>
+  </body>
+
+
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Galeria de Fotos</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 1rem;
+      background-color: #9adcff;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+
+    .galeria {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 15px;
+    }
+
+    .galeria img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 10px;
+      transition: transform 0.3s ease;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .galeria img:hover {
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+
+<body>
+
+  <section id="Fotos"></section>
+  <h1>Minha Galeria de Fotos</h1>
+
+  <div class="galeria">
+    <img src="imagens/f5.jpeg" alt="Foto 1">
+    <img src="imagens/f6.jpeg" alt="Foto 2">
+    <img src="imagens/f7.jpeg" alt="Foto 3">
+    <img src="imagens/f8.jpeg" alt="Foto 4">
+    <img src="imagens/f9.jpeg" alt="Foto 5">
+    <img src="imagens/f10.jpeg" alt="Foto 6">
+    <img src="imagens/f11.jpeg" alt="Foto 7">
+    <img src="imagens/f12.jpeg" alt="Foto 8">
+    <img src="imagens/f13.jpeg" alt="Foto 9">
+    <img src="imagens/f14 (2).jpeg" alt="Foto 10">
+    <img src="imagens/f16.jpeg" alt="Foto 11">
+    <img src="imagens/f17.jpeg" alt="Foto 12">
+  </div>
+
+</body>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Seção de Aprendizado</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #94c8f3;
+      color: #333;
+      margin: 0;
+      padding: 2rem;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: auto;
+      background: white;
+      padding: 2rem;
+      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    }
+
+    h1 {
+      color: #2c3e50;
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+
+    h2 {
+      color: #3498db;
+      margin-top: 2rem;
+    }
+
+    p {
+      line-height: 1.6;
+    }
+
+    .dica {
+      background-color: #b5f8ff;
+      border-left: 5px solid #2ecc71;
+      padding: 1rem;
+      margin: 1rem 0;
+      border-radius: 6px;
+    }
+
+    pre {
+      background-color: #272822;
+      color: #a0eeff;
+      padding: 1rem;
+      border-radius: 5px;
+      overflow-x: auto;
+      margin-top: 0.5rem;
+    }
+
+    code {
+      font-family: 'Courier New', monospace;
+      font-size: 0.95rem;
+    }
+
+    ul {
+      margin-left: 1.2rem;
+    }
+
+    li {
+      margin-bottom: 0.5rem;
+    }
+  </style>
+</head>
+<body>
+
+  <section id="Aprendizado"></section>
+  <div class="container">
+    <h1>Seção de Aprendizado</h1>
+
+    <p>Estou em uma jornada contínua de aprendizado em tecnologias essenciais para desenvolvimento web e automação. Atualmente estou focado em <strong>HTML</strong>, <strong>CSS</strong>, <strong>JavaScript</strong> e <strong>Python</strong>.</p>
+
+    <h2>🌐 HTML</h2>
+    <p>Com HTML aprendi a estruturar páginas de forma semântica e acessível. É a base de qualquer projeto web.</p>
+    <div class="dica">
+      <strong>Dica:</strong> Use tags semânticas como <code>&lt;article&gt;</code>, <code>&lt;section&gt;</code> e <code>&lt;header&gt;</code> para melhorar a acessibilidade.
+    </div>
+    <pre><code>&lt;section&gt;
+  &lt;h2&gt;Sobre Mim&lt;/h2&gt;
+  &lt;p&gt;Sou estudante de tecnologia apaixonado por aprender.&lt;/p&gt;
+&lt;/section&gt;</code></pre>
+
+    <h2>🎨 CSS</h2>
+    <p>CSS me permite transformar um layout simples em algo visualmente agradável e responsivo.</p>
+    <div class="dica">
+      <strong>Dica:</strong> Comece usando Flexbox para criar alinhamentos mais rápidos e fáceis.
+    </div>
+    <pre><code>.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}</code></pre>
+
+    <h2>⚙️ JavaScript</h2>
+    <p>Com JavaScript consigo adicionar interatividade às páginas, como validações, animações e manipulação de elementos.</p>
+    <div class="dica">
+      <strong>Dica:</strong> Use <code>addEventListener</code> para reagir a ações do usuário sem misturar JS com HTML.
+    </div>
+    <pre><code>document.querySelector('#botao').addEventListener('click', () => {
+  alert('Você clicou no botão!');
+});</code></pre>
+
+    <h2>🐍 Python</h2>
+    <p>Uso Python para scripts, automações e estou iniciando com análise de dados e APIs. É uma linguagem poderosa e fácil de aprender.</p>
+    <div class="dica">
+      <strong>Dica:</strong> Use bibliotecas como <code>requests</code> e <code>pandas</code> para tarefas comuns de web e dados.
+    </div>
+    <pre><code>import requests
+
+resposta = requests.get("https://api.github.com")
+if resposta.status_code == 200:
+    print("Conexão bem-sucedida!")</code></pre>
+
+    <h2>📌 Conclusão</h2>
+    <p>Aprender programação é uma jornada. Com prática diária, pequenos projetos e curiosidade, é possível evoluir rapidamente.</p>
+    
+    <div class="dica">
+      <strong>Dica final:</strong> Crie projetos reais com o que você aprende. Isso ajuda a memorizar melhor e criar um portfólio.
+    </div>
+  </div>
+</body>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulário de Comentários</title>
+  <style>
+      body {
+      font-family: Arial, sans-serif;
+      background-color: #bbeaff;
+      padding: 2rem;
+    }
+
+      .comentarios {
+      max-width: 600px;
+      margin: auto;
+      background: white;
+      padding: 2rem;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+      h2 {
+      margin-bottom: 1rem;
+      color: #2c3e50;
+    }
+
+      label {
+      display: block;
+      margin-bottom: 0.5rem;
+      font-weight: bold;
+      margin-top: 1rem;
+    }
+
+      input, textarea {
+      width: 100%;
+      padding: 0.8rem;
+      border: 1px solid #a5f1f9;
+      border-radius: 6px;
+      font-size: 1rem;
+      resize: vertical;
+    }
+
+    textarea {
+    min-height: 100px;
+    }
+
+      button {
+      margin-top: 1.5rem;
+      background-color: #3498db;
+      color: rgb(179, 247, 255);
+      border: none;
+      padding: 0.8rem 1.5rem;
+      border-radius: 6px;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    button:hover {
+    background-color: #2980b9;
+    }
+  </style>
+</head>
+<body>
+
+  <section id="Comentário"></section>
+  <section class="comentarios">
+    <h2>Seu Comentário importa</h2>
+    <form>
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome" name="nome" placeholder="Seu nome" required>
+
+      <label for="email">E-mail:</label>
+      <input type="email" id="email" name="email" placeholder="seu@email.com" required>
+
+      <label for="comentario">Comentário:</label>
+      <textarea id="comentario" name="comentario" placeholder="Digite seu comentário aqui..." required></textarea>
+
+        <button type="submit">Enviar Comentário</button>
+    </form>
+  </section>
+</body>
+<footer>
+
+<p>&copy; 2025 Caio | Todos os direitos reservados.</p>
+
+</footer>
+</html>
